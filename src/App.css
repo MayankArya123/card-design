@@ -411,3 +411,20 @@ ul{
 
   color: #ffffff;
 }
+
+
+@media screen  and (max-width:768px)  {
+  
+
+  .cards {
+    display: flex;
+    flex-direction: column; 
+    width: 90%;
+    margin:auto;
+  } 
+  .cards .card{
+    margin: 2.7em 0;
+    width: 98% ;
+  }
+
+}
